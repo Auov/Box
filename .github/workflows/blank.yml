@@ -12,7 +12,7 @@ jobs:
     steps:
     # 检出你自己的仓库（带 GITHUB_TOKEN 授权）
     - name: Checkout target repository
-      uses: actions/checkout@v4.2.1
+      uses: actions/checkout@v5.0.0
       with:
         # 检出指定分支，这里是 X
         ref: X 
